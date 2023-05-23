@@ -10,7 +10,7 @@ port = 444
 #binding address port to socket.
 serversocket.bind(('172.20.20.127', port))
 
-#tcp listener connections, here we can change the number of connections we can make to this server.
+#tcp listener connections, here we can change the number of connections we can make to this server. sick
 serversocket.listen(3)
 while True:
     clientsocket, address = serversocket.accept()
